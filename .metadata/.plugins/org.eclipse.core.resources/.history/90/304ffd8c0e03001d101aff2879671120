@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Exercicio_4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Escolha o primeiro numero: ");
+		double num1 = sc.nextDouble();
+		System.out.print("Escolha o segundo numero: ");
+		double num2 = sc.nextDouble();
+		System.out.print("Escolha um operador: ");
+		String operador = sc.next();
+		
+		if(operador == "+") {
+			double resultado1 = num1 + num2;
+			System.out.println("O resultado da soma eh: " + resultado1);
+		}else if(operador == "-") {
+			double resultado = num1 - num2;
+			System.out.println("O resultado da subtracao eh: " + resultado);
+		}else if(operador == "*") {
+			double resultado = num1 * num2;
+			System.out.println("O resultado da multiplicacao eh: " + resultado);
+		}else if(operador == "/") {
+			double resultado = num1 / num2;
+			System.out.println("O resultado da divisao eh: " + resultado);
+		}else {
+			System.out.print("Operador ainda nao implementado");
+		}
+		
+		sc.close();
+
+	}
+
+}
