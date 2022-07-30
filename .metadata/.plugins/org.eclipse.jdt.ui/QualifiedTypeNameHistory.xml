@@ -19,4 +19,8 @@
     <fullyQualifiedTypeName name="java.time.Year"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="PoligonoRegular"/>
+    <fullyQualifiedTypeName name="java.lang.FdLibm.Pow"/>
+    <fullyQualifiedTypeName name="entities.PoligonoRegular"/>
+    <fullyQualifiedTypeName name="entities.Triangulo"/>
 </qualifiedTypeNameHistroy>
