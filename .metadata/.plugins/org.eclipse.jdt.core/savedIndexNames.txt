@@ -19,3 +19,5 @@ INDEX VERSION 1.131+C:\Users\slloww_\Desktop\exercicios 100 dias\.metadata\.plug
 1075933688.index
 355771590.index
 4125873141.index
+1297593488.index
+2597914504.index
