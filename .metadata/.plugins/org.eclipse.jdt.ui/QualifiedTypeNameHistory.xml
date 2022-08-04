@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.security.PublicKey"/>
-    <fullyQualifiedTypeName name="java.awt.Font"/>
-    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
-    <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="java.awt.GridBagLayout"/>
-    <fullyQualifiedTypeName name="java.awt.GridLayout"/>
     <fullyQualifiedTypeName name="javax.swing.BorderFactory"/>
-    <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="java.util.Timer"/>
-    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
-    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
     <fullyQualifiedTypeName name="java.time.Year"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -29,4 +21,14 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="entities.CD"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="java.awt.GridLayout"/>
+    <fullyQualifiedTypeName name="java.awt.Font"/>
+    <fullyQualifiedTypeName name="entities.calculadora"/>
+    <fullyQualifiedTypeName name="application.calcInterface"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
 </qualifiedTypeNameHistroy>
