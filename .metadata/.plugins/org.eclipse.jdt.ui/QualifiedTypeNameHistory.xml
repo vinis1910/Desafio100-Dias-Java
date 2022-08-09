@@ -10,17 +10,13 @@
     <fullyQualifiedTypeName name="java.util.Timer"/>
     <fullyQualifiedTypeName name="java.time.Year"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="PoligonoRegular"/>
     <fullyQualifiedTypeName name="java.lang.FdLibm.Pow"/>
     <fullyQualifiedTypeName name="entities.PoligonoRegular"/>
-    <fullyQualifiedTypeName name="entities.Triangulo"/>
     <fullyQualifiedTypeName name="entities.Cachorro"/>
     <fullyQualifiedTypeName name="entities.Cavalo"/>
     <fullyQualifiedTypeName name="entities.Preguica"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="entities.CD"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
     <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
@@ -35,4 +31,12 @@
     <fullyQualifiedTypeName name="model.services.OperacaoMatematica"/>
     <fullyQualifiedTypeName name="model.services.Sub"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="entities.Triangulo"/>
+    <fullyQualifiedTypeName name="entities.FiguraPlana"/>
+    <fullyQualifiedTypeName name="entities.Quadrado"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
