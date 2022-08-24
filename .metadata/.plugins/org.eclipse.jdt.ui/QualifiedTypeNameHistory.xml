@@ -41,7 +41,6 @@
     <fullyQualifiedTypeName name="db.DB"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="DAO.DB"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
@@ -49,4 +48,5 @@
     <fullyQualifiedTypeName name="com.mysql.cj.jdbc.Driver"/>
     <fullyQualifiedTypeName name="DTO.Crud"/>
     <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="DAO.DB"/>
 </qualifiedTypeNameHistroy>

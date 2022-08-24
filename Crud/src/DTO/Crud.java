@@ -2,9 +2,12 @@ package DTO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
 
 import DAO.DB;
 
@@ -52,7 +55,28 @@ public class Crud {
 			DB.desconectar(conn);
 			
 		} catch (Exception e) {
-			// TODO: handle exception
+			e.getStackTrace();
+		}
+	}
+	
+	public void listar(DefaultTableModel model) {
+		try {
+			Connection conn = DB.conectar();
+			Statement st = conn.createStatement();
+		    ResultSet res = st.executeQuery("SELECT * FROM usuario");
+			
+			while(res.next()) {
+				String codigo = res.getString("ID");
+				String nome = res.getString("Nome");
+				String email = res.getString("Email");
+				model.addRow(new Object[] {codigo, nome, email});
+				}
+			res.close();
+			st.close();
+			DB.desconectar(conn);
+			
+		} catch (Exception e) {
+			e.getStackTrace();
 		}
 	}
 	
