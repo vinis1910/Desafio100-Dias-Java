@@ -66,10 +66,7 @@ public class Crud {
 		    ResultSet res = st.executeQuery("SELECT * FROM usuario");
 			
 			while(res.next()) {
-				String codigo = res.getString("ID");
-				String nome = res.getString("Nome");
-				String email = res.getString("Email");
-				model.addRow(new Object[] {codigo, nome, email});
+				model.addRow(new Object[] {res.getString("id"), res.getString("nome"), res.getString("email")});
 				}
 			res.close();
 			st.close();
@@ -78,6 +75,19 @@ public class Crud {
 		} catch (Exception e) {
 			e.getStackTrace();
 		}
+	}
+	
+	public void limpar() {
+		try {
+			Connection conn = DB.conectar();
+			PreparedStatement st = conn.prepareStatement("DELETE FROM usuario");
+			st.executeUpdate();
+			st.close();
+			DB.desconectar(conn);
+		} catch (Exception e) {
+			e.getStackTrace();
+		}
+
 	}
 	
 }

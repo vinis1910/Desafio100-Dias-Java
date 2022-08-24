@@ -22,7 +22,7 @@ public class Interface implements ActionListener {
 	JTextField field1;
 	JTextField field2;
 	JTextField field3;
-	JButton botao1, botao2, botao3, botao4;
+	JButton botao1, botao2, botao3, botao4, botao5;
 	Font fonte = new Font("Dialog", Font.PLAIN, 15);
 	Font fonte2 = new Font("Dialog", Font.PLAIN, 13);
 	implementDTO dto = new implementDTO();
@@ -107,6 +107,12 @@ public class Interface implements ActionListener {
 		botao4.setFont(fonte2);
 		botao4.addActionListener(this);
 		
+		botao5 = new JButton("Limpar");
+		botao5.setBounds(142, 200, 80, 20);
+		botao5.setFocusable(false);
+		botao5.setFont(fonte2);
+		botao5.addActionListener(this);
+		
 		JTable table = new JTable(model);
 		table.setBounds(25, 245, 315, 80);
 		table.setEnabled(true);
@@ -125,6 +131,7 @@ public class Interface implements ActionListener {
 		frame.add(botao2);
 		frame.add(botao3);
 		frame.add(botao4);
+		frame.add(botao5);
 		frame.add(labelId);
 		frame.add(labelNome);
 		frame.add(labelEmail);
@@ -164,6 +171,9 @@ public class Interface implements ActionListener {
 		
 		if(e.getSource().equals(botao4)) {
 			crud.listar(model);
+		}
+		if(e.getSource().equals(botao5)) {
+			crud.limpar();
 		}
 	}
 
