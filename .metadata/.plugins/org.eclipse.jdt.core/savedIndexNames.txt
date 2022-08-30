@@ -3,8 +3,10 @@ INDEX VERSION 1.131+C:\Users\slloww_\Desktop\exercicios 100 dias\.metadata\.plug
 2013233610.index
 811596570.index
 3611857091.index
+3500043369.index
 4171044509.index
 355771590.index
+3257648007.index
 2401992853.index
 3723905345.index
 2597914504.index
@@ -18,9 +20,9 @@ INDEX VERSION 1.131+C:\Users\slloww_\Desktop\exercicios 100 dias\.metadata\.plug
 704235630.index
 1881767264.index
 1654444686.index
-3208473677.index
-4253202120.index
 222286506.index
+4253202120.index
+3208473677.index
 125897512.index
 3045307855.index
 184012352.index

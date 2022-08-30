@@ -20,7 +20,6 @@ public class Crud {
 			st.setString(1, id);
 			st.setString(2, nome);
 			st.setString(3, email);
-				
 			st.executeUpdate();
 			st.close();
 			DB.desconectar(conn);
